@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing page</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0px;
+			box-sizing: border-box;
+		}
+		header{
+			background-image: url(images/bg.jpeg);
+			background-size: cover;
+			background-position: center;
+			color: white;
+			padding: 10px;
+			height: 300px
+		}
+		.menu{
+			padding: 10px;
+			float: right;
+		}
+        ul.menu {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+        ul.menu li {
+            box-sizing: border-box;
+            float: right;
+        }
+        ul.menu li a {
+            color: #FFF;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+		.content{
+			padding: 10px;
+			float: right;
+			width: 75%;
+		}
+
+		footer{
+			background-color: grey;
+			color: white;
+			padding: 10px;
+			clear: both
+		}
+		p{
+			margin-top: 5px;
+			margin-bottom: 5px
+		}
+		.boton {
+			padding: 5px; /*espacio alrededor texto*/
+			background-color: royalblue; /*color botón*/
+			color: #ffffff; /*color texto*/
+			text-decoration: none; /*decoración texto*/
+			font-size: 15px;
+			border-radius: 5px; /*bordes redondos*/
+		}
+		#botonverde{
+			background-color: limegreen;
+		}
+		.section1{
+			background-color: white;
+			color: grey;
+			padding-top: 30px;
+			height: 500px;
+			font-size: 10px;
+			text-align: center;
+		}
+		.bandacentrada{
+			text-align: center;width: 50%; margin-left: 25%;
+		}
+		.bandaancha{
+			background-color: whitesmoke; width: 100%; height: 200px;
+			border-color: lightgrey;border-width: 1px;
+			border-top-style: solid;
+			border-bottom-style: solid; 
+		}
+	</style>
+</head>
+<body bgcolor="black">
+	<div style="margin: auto;width: 800px;">
+		<header>
+			<div style="float: left">
+				<img height="20px" src="images/latam_logo.png">
+			</div>
+			<ul class="menu">
+			    <li><a href="#">Equipo</a></li>
+			    <li><a href="#">Blog</a></li>
+			    <li><a href="#">Contacto</a></li>
+			    <div style="clear: both"></div>
+			</ul>
+			<div class="bandacentrada" style="margin-top: 80px;">
+				<p style="font-size: 25px">COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</p>
+				<a class="boton" href="" target="_blank">Comienza acá!</a>
+				<a class="boton" id="botonverde" href="" target="_blank">Más info</a>
+				<p style="font-size: 10px">Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno!</p>
+			</div>
+		</header>
+		<div class="section1" >
+			<div  class="bandacentrada">
+				<b>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</b>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+			<img width="25%" src="images/viewing-gallery-for-happy-people.png">
+			<div class="bandaancha"></div>
+		</div>
+		<footer>DESAFIOLATAM 2016 - CURSO FULLSTACK G14</footer>
+	</div>
+</body>
+</html>
