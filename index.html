@@ -42,9 +42,10 @@
 		}
 
 		footer{
-			background-color: grey;
+			background-color: #202020;
 			color: white;
 			padding: 10px;
+			padding-left: 100px;
 			clear: both
 		}
 		p{
@@ -82,12 +83,25 @@
 		}
 		.contacto{
 			float: left;
-			box-sizing: content-box;
+			text-align: left;
+			padding-left:20%;
+		}
+		.contacto p{
+			padding: 0px;
+		}
+		.contacto h3{
+			padding-bottom: 10px
 		}
 		.subscribe{
-
 			float: left;
+			text-align: left;
+			width: 300px;
+			padding-left: 40px
 		}
+		.subscribe p{
+			padding-left: 0px;
+		}
+
 	</style>
 </head>
 <body bgcolor="black">
@@ -130,12 +144,13 @@
 				</div>
 			</div>
 
-			<div  style="padding: 40px;">
+			<div  style="padding: 40px; height: 100%">
 				<div class="contacto">
 					<h3>Contacto</h3>
 					<b>Desafio Latam</b>
 					<p>Ezequias Allende 2361</p>
 					<p>P: +56 9 5117 7975</p>
+					<br>
 					<a href="mailto:inscripciones@desafionlatam.com">inscripciones@desafionlatam.com</a>
 				</div>
 				<div class="subscribe">
@@ -147,6 +162,7 @@
 						<input type="submit" value="Enviar">
 					</form>
 				</div>
+				<div style="clear: both"></div>
 			</div>
 		</div>
 		<footer>DESAFIOLATAM 2016 - CURSO FULLSTACK G14</footer>
